@@ -5551,8 +5551,8 @@
                                                 <note type="marginal" place="margin_right">Recepcio
                                                   for<ex>i</ex>nseca</note>It<ex>em</ex> receyued of
                                                 <rs ref="eats:394267" type="Collective_GuildsReligious">corpus chr<ex>is</ex>ti bretherhede</rs> of &#x00FE;e
-                                                xxviij.<handShift/> &#x021D;ere of <rs ref="eats:44444" type="Person_Royalty">kynge
-                                                  henry</rs> aboue rehersed</cell>
+                                                xxviij.<handShift/> &#x021D;ere of kynge
+                                                  henry aboue rehersed</cell>
                                             <cell>iij. s iiijd</cell>
                                         </row>
                                     </table></ab>
@@ -5564,8 +5564,7 @@
                                     apon <rs ref="eats:41497" type="CalendarDay_Liturgical">corpus
                                             chr<ex>isti</ex> day</rs>. be ij. &#x021C;ere iiij. s
                                         It<ex>e</ex>m payde for makyng of torchez xj. s Item payde
-                                    for ye <rs ref="eats:203592" type="Drama_Character">Aungels</rs> of oure <rs ref="eats:302248"
-                                        type="Thing_SetMachinery">pageand</rs> xs. s It<ex>e</ex>m
+                                    for ye <rs ref="eats:203592" type="Drama_Character">Aungels</rs> of oure <rs ref="eats:403978" type="Entertainment_Type">pageand</rs> xs. s It<ex>e</ex>m
                                     for ij &#x021C;erdes &amp; d<ex>imidium</ex> of <rs
                                         ref="eats:328230" type="Thing_ClothingMaterials"
                                             >lyn<ex>en</ex> cloth</rs> to hevyn of our<ex>e</ex>
@@ -5592,7 +5591,7 @@
                             <head>mb D63</head>
                             <pb n="D63" type="membrane"/>
                             <ab>
-                                <ab>Yis is ye costes mad a bowitt ye <rs ref="eats:302248" type="Thing_SetMachinery">pagant</rs></ab>
+                                <ab>Yis is ye costes mad a bowitt ye <rs ref="eats:403978" type="Entertainment_Type">pagant</rs></ab>
                                 <ab><table>
                                         <row><cell>In p<ex>r</ex>imis for iij </cell><cell>x d</cell></row>
                                         <row><cell>lt<ex>e</ex>m for sowyng of a <rs ref="eats:302248" type="Thing_SetMachinery">wanskott</rs></cell><cell>ij d</cell></row>
@@ -5609,7 +5608,7 @@
                                         <row><cell>It<ex>e</ex>m for makyng of iiij baners</cell><cell>iij s</cell></row>
                                         <row><cell>It<ex>e</ex>m for naylls &amp; heryng of ger to ye paga<ex>n</ex>tt fro ye trenyte hall</cell><cell>ij d</cell></row>
                                         <row><cell>It<ex>e</ex>m for putyng of ye pagant ou<ex>er</ex> ousse &amp; settyng vpe</cell><cell>viij d</cell></row>
-                                        <row><cell>It<ex>e</ex>m for d<ex>imidium</ex> 3ard of <rs ref="eats:238343" type="Thing_Property">cloth</rs> to god</cell><cell>iij d</cell></row>
+                                        <row><cell>It<ex>e</ex>m for d<ex>imidium</ex> 3ard of <rs ref="eats:302518" type="Thing_Property">cloth</rs> to god</cell><cell>iij d</cell></row>
                                         <row><cell>It<ex>e</ex>m for iiij <rs ref="eats:465162" type="Entertainer_Type">mynstrall<ex>es</ex></rs></cell><cell>ij s</cell></row>
                                         <row><cell>It<ex>e</ex>m to a <rs ref="eats:475557" type="Collective_Office">sargint</rs></cell><cell>iiij d</cell></row>
                                         <row><cell>It<ex>e</ex>m for alle to ye <rs ref="eats:56534" type="Collective_Occupations">puters</rs></cell><cell>iij d</cell></row>
@@ -5665,23 +5664,16 @@
                 <body>
                     <head><rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
                             ref="eats:37840" type="Place_PA_Settlement">York</rs>
-                        <!-- Date is encoded here. For slash dates, put the modern date into the quotation marks and the slash date in between the date tags. Eg: <date when-iso="1617">1616/17</date>". 
-                For date ranges, use <date from-iso="YYYY" to-iso="YYYY">YYYY-Y</date>. Eg: <date from-iso="1451" to-iso="1452">1451-2</date>. In all other cases, keep the tags as below and simply change the YYYY to the appropriate year-->
                         <date when-iso="1461">1461</date>
-                        <!-- Use the York Record Code List.xslx file to choose the appropriate code based on the type of record you are working with and insert it below into the seg ana element and between the two XML tags
-                -->
-                        <seg ana="taxon:YGMAA"> YGMAA</seg>
+                        <seg ana="taxon:YGMAA">YGMAA</seg>
                     </head>
-                    <!-- xml:lang: eng= english, lat= latin, ang=anglo-saxon. Type will always be transcription in this section. the xml:id here must match the xml:id above with the addition of a -transcription -->
                     <div xml:lang="eng" type="transcription" xml:id="yorkc-ridp329503004-transcription">
                         <div>
-                            <head>
-                                <!--Membrane/Folio number goes here. Use mb for membrane and f for folio]--> mb D63M</head>
-                            <!-- Memberane/Folio number is encoded below. Under type, use "membrane" for membrance and "folio" for folio -->
+                            <head>mb D63M</head>
                             <pb n="D63M" type="membrane"/>
                             <ab> 
                                 <gap reason="omitted"/>
-                                <ab><note type="marginal" place="margin_left">External receipt</note>And of 3s 4d from the fraternity of Corpus Christi for their
+                                <ab><note type="marginal" place="margin_left">External receipt</note>And of 3s 4d from the <rs ref="eats:394267" type="Collective_GuildsReligious">fraternity of Corpus Christi</rs> for their
                                     payment for accommodation in the hall of this fraternity at the
                                     time of its general meeting this year</ab>
                                 
@@ -5691,12 +5683,12 @@
                                         <row>
                                             <cell><note type="marginal" place="margin_left">External and necessary expenses</note>
                                                 And they paid for the carrying of the 6 <rs ref="eats:302073" type="Thing_SetMachinery">torches</rs> of the said
-                                                fraternity in the <rs ref="eats:41497" type="CalendarDay_Liturgical">Corpus Christi</rs> procession on the feast of the
+                                                fraternity in the <rs ref="eats:403978" type="Entertainment_Type">Corpus Christi procession</rs> on the feast of the
                                                 same this year</cell><cell></cell><cell></cell><cell>2s</cell></row>
                                         <row><cell>And they paid to <rs ref="eats:472999" type="Person_Male">Thomas Nandyke</rs> and his companions, the
-                                                <rs ref="eats:462062" type="Collective_Office">pageant masters</rs> of the said fraternity, both for the repair of the
-                                                same <rs ref="eats:302248" type="Thing_SetMachinery">pageant</rs> and for the hire of players in the Corpus Christi
-                                                Play, beyond all that which was collected among the craftsmen
+                                                <rs ref="eats:475446" type="Collective_Office">pageant masters</rs> of the said fraternity, both for the repair of the
+                                                same <rs ref="eats:302248" type="Thing_SetMachinery">pageant</rs> and for the hire of <rs ref="eats:8782" type="Entertainer_Type">players</rs> in the <rs ref="eats:389232" type="Drama_TitledWork">Corpus Christi
+                                                Play</rs>, beyond all that which was collected among the craftsmen
                                                 contributing to the said play</cell><cell></cell><cell></cell><cell>30s </cell><cell>4½d</cell></row>
                                         <row><cell>And for 8 dozen (pieces) of wax bought from <rs ref="eats:472770" type="Person_Male">Thomas Beverlay</rs>
                                                 himself for the new manufacture of the said 6 torches at the
@@ -5707,52 +5699,40 @@
                                 <gap reason="omitted"/>
                             </ab>
                         </div>
-                        <!-- The section below is only needed if your record also contains a translation. The div type will always be translation in this section. The xml:id must match the one above, except with a -translation at the end.  -->
-                        <div xml:lang="eng" type="translation" xml:id="yorkc-ridpXXXXXXXXX-translation">
-                            <div>
-                            </div>
-                        </div>
                     </div>
                 </body>
             </text>
             <text type="record" xml:id="yorkc-ridp567111422">
                 <body>
-                    <head><!-- Record location goes here in the following format: [COUNTY, CITY] (eg. Yorkshire, York). -->
-                        Yorkshire, York 
-                        <!-- Date is encoded here. For slash dates, put the modern date into the quotation marks and the slash date in between the date tags. Eg: <date when-iso="1617">1616/17</date>". 
-                For date ranges, use <date from-iso="YYYY" to-iso="YYYY">YYYY-Y</date>. Eg: <date from-iso="1451" to-iso="1452">1451-2</date>. In all other cases, keep the tags as below and simply change the YYYY to the appropriate year-->
+                    <head><rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
+                            ref="eats:37840" type="Place_PA_Settlement">York</rs> 
                         <date when-iso="1462">1462</date>
-                        <!-- Use the York Record Code List.xslx file to choose the appropriate code based on the type of record you are working with and insert it below into the seg ana element and between the two XML tags
-                -->
                         <seg ana="taxon:YGMP2">YGMP2</seg>
                     </head>
-                    <!-- xml:lang: eng= english, lat= latin, ang=anglo-saxon. Type will always be transcription in this section. the xml:id here must match the xml:id above with the addition of a -transcription -->
                     <div xml:lang="eng" type="transcription" xml:id="yorkc-ridp567111422-transcription">
                         <div>
-                            <head>
-                                <!--Membrane/Folio number goes here. Use mb for membrane and f for folio]--> mb D63</head>
-                            <!-- Memberane/Folio number is encoded below. Under type, use "membrane" for membrance and "folio" for folio -->
+                            <head>mb D63</head>
                             <pb n="D63" type="membrane"/>
                             <ab>
-                                <ab>Thise be &#x00FE;e p<ex>ar</ex>celles of expens<ex>es</ex> made aboute &#x00FE;e <rs ref="eats:302248" type="Thing_SetMachinery">pageant</rs> of
-                                    &#x00FE;e Mercer<ex>es</ex><lb/></ab>
+                                <ab>Thise be &#x00FE;e p<ex>ar</ex>celles of expens<ex>es</ex> made aboute &#x00FE;e <rs ref="eats:403978" type="Entertainment_Type">pageant</rs> of
+                                    &#x00FE;e <rs ref="eats:393924" type="Collective_GuildsOccupational">Mercer<ex>es</ex></rs><lb/></ab>
                                 <table>
-                                    <row><cell>In p<ex>r</ex>imis paide to &#x00FE;e players for playinge</cell><cell></cell><cell>xviij s ij d</cell></row>
+                                    <row><cell>In p<ex>r</ex>imis paide to &#x00FE;e <rs ref="eats:8782" type="Entertainer_Type">players</rs> for playinge</cell><cell></cell><cell>xviij s ij d</cell></row>
                                     <row><cell>It<ex>e</ex>m paide for &#x00FE;e <rs ref="eats:238343" type="Thing_Property">cloth</rs> of god <del>sak</del> <rs ref="eats:74414" type="Thing_TheatricalCostume">sarke</rs> &amp; &#x00FE;e <rs ref="eats:302170" type="Thing_TheatricalCostume">hose</rs> makyng &amp; payntyng</cell><cell></cell><cell>ijs iiij. d</cell></row>
-                                    <row><cell>It<ex>e</ex>m paide for a pare of newe Wheles</cell><cell></cell><cell>iijs viij. d</cell></row>
+                                    <row><cell>It<ex>e</ex>m paide for a pare of newe <rs ref="eats:465496" type="Thing_SetMachinery">Wheles</rs></cell><cell></cell><cell>iijs viij. d</cell></row>
                                     <row><cell>It<ex>e</ex>m paide for <del>to Ite</del> &#x00FE;e puttyng forth of &#x00FE;e pageant</cell><cell></cell><cell>ij d</cell></row>
-                                    <row><cell>It<ex>e</ex>m paide for mendyng of &#x00FE;e pageant</cell><cell></cell><cell>xd</cell></row>
+                                    <row><cell>It<ex>e</ex>m paide for mendyng of &#x00FE;e <rs ref="eats:302248" type="Thing_SetMachinery">pageant</rs></cell><cell></cell><cell>xd</cell></row>
                                     <row><cell>It<ex>em</ex> paide to a <rs ref="eats:393249" type="Collective_GuildsOccupational">wright</rs></cell><cell></cell><cell>ij d</cell></row>
                                     <row><cell>It<ex>em</ex> paide for a newe <rs ref="eats:219750" type="Thing_Property">rope</rs></cell><cell></cell><cell>ij d</cell></row>
-                                    <row><cell>It<ex>em</ex> paide for mendyng of &#x00FE;e <rs ref="eats:472395" type="Thing_SetMachinery">aungell<ex>es</ex></rs></cell><cell></cell><cell>ij. d</cell></row>
+                                    <row><cell>It<ex>em</ex> paide for mendyng of &#x00FE;e <rs ref="eats:203592" type="Drama_Character">aungell<ex>es</ex></rs></cell><cell></cell><cell>ij. d</cell></row>
                                     <row><cell>It<ex>em</ex> paide for mendyng of &#x00FE;e <rs ref="eats:41777" type="Thing_MusicalInstrument">tromppez</rs></cell><cell></cell><cell>j. d</cell></row>
-                                    <row><cell>It<ex>em</ex> paide for iiij <rs ref="eats:203592" type="Drama_Character">aungell<ex>es</ex></rs> <rs ref="eats:191516" type="Thing_TheatricalCostume">weyngez</rs> hyre</cell><cell></cell><cell>iiij. d</cell></row>
+                                    <row><cell>It<ex>em</ex> paide for iiij aungell<ex>es</ex> <rs ref="eats:191516" type="Thing_TheatricalCostume">weyngez</rs> hyre</cell><cell></cell><cell>iiij. d</cell></row>
                                     <row><cell>It<ex>em</ex> paid for puttyng hom of &#x00FE;e pageant</cell><cell></cell><cell>v. d</cell></row>
                                     <row><cell>It<ex>em</ex> paide for &#x00FE;e pageant gere beryng to and fro</cell><cell></cell><cell>iij d</cell></row>
-                                    <row><cell>It<ex>em</ex> paide for cost<ex>es</ex> when we went about pageant silvo<ex>u</ex>r</cell><cell></cell><cell>vj d</cell></row>
+                                    <row><cell>It<ex>em</ex> paide for cost<ex>es</ex> when we went about pageant <rs ref="eats:366600" type="Thing_ClothingMaterials">silvo<ex>u</ex>r</rs></cell><cell></cell><cell>vj d</cell></row>
                                     <row><cell>It<ex>e</ex>m in expens<ex>es</ex> for <rs ref="eats:40997" type="Thing_FoodDrink">drynk</rs> vpon <rs ref="eats:41497" type="CalendarDay_Liturgical">corpus cristi day</rs> be &#x00FE;e way</cell><cell></cell><cell>vj. d</cell></row>
                                     <row><cell>It<ex>e</ex>m for players <rs ref="eats:40978" type="Thing_FoodDrink">sopper</rs> &amp; oures</cell><cell></cell><cell>ij. s</cell></row>
-                                    <row><cell>It<ex>e</ex>m paide to a <rs ref="eats:286099" type="Collective_Office">Sergeant</rs> &#x00FE;<ex>a</ex>t went w<ex>i</ex>t<ex>h</ex> vs at dyu<ex>er</ex>s tymes</cell><cell></cell><cell>iij. d</cell></row>
+                                    <row><cell>It<ex>e</ex>m paide to a <rs ref="eats:475557" type="Collective_Office">Sergeant</rs> &#x00FE;<ex>a</ex>t went w<ex>i</ex>t<ex>h</ex> vs at dyu<ex>er</ex>s tymes</cell><cell></cell><cell>iij. d</cell></row>
                                     <row><cell>It<ex>e</ex>m paide for ynke <rs ref="eats:73500" type="Thing_ClothingMaterials">paupir</rs> &amp; for writyng</cell><cell></cell><cell>ij. d</cell></row>
                                 </table>
                                 <ab rend="center">S<ex>um</ex>ma xxx s ij. d</ab> 
@@ -5769,27 +5749,20 @@
             </text>
             <text type="record" xml:id="yorkc-ridp732904639">
                 <body>
-                    <head><!-- Record location goes here in the following format: [COUNTY, CITY] (eg. Yorkshire, York). -->
-                        Yorkshire, York 
-                        <!-- Date is encoded here. For slash dates, put the modern date into the quotation marks and the slash date in between the date tags. Eg: <date when-iso="1617">1616/17</date>". 
-                For date ranges, use <date from-iso="YYYY" to-iso="YYYY">YYYY-Y</date>. Eg: <date from-iso="1451" to-iso="1452">1451-2</date>. In all other cases, keep the tags as below and simply change the YYYY to the appropriate year-->
+                    <head><rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
+                            ref="eats:37840" type="Place_PA_Settlement">York</rs> 
                         <date when-iso="1463">1463</date>
-                        <!-- Use the York Record Code List.xslx file to choose the appropriate code based on the type of record you are working with and insert it below into the seg ana element and between the two XML tags
-                -->
                         <seg ana="taxon:YGMP3">YGMP3</seg>
                     </head>
-                    <!-- xml:lang: eng= english, lat= latin, ang=anglo-saxon. Type will always be transcription in this section. the xml:id here must match the xml:id above with the addition of a -transcription -->
                     <div xml:lang="eng" type="transcription" xml:id="yorkc-ridp732904639-transcription">
                         <div>
-                            <head>
-                                <!--Membrane/Folio number goes here. Use mb for membrane and f for folio]--> mb D63</head>
-                            <!-- Memberane/Folio number is encoded below. Under type, use "membrane" for membrance and "folio" for folio -->
+                            <head>mb D63</head>
                             <pb n="D63" type="membrane"/>
                             <ab>
                                 Thys is ye expens mayde be <rs ref="eats:473142" type="Person_Male">lohn leghtlop</rs> <rs ref="eats:473093" type="Person_Male">will<ex>ia</ex>m Thelle</rs> &amp;
                                 <rs ref="eats:473191" type="Person_Male">R<ex>i</ex>c<ex>hard</ex> sawer</rs> in y<ex>er</ex> &#x021D;er beyng <rs ref="eats:462062" type="Collective_Office">pagandmasstes</rs><lb/>
                                 <table>
-                                    <row><cell>ferst qwene we went I botte for <rs ref="eats:302248" type="Thing_SetMachinery">pagand</rs> sylu<ex>er</ex>e</cell><cell>iiij d</cell></row>
+                                    <row><cell>ferst qwene we went I botte for <rs ref="eats:302248" type="Thing_SetMachinery">pagand</rs> <rs ref="eats:366600" type="Thing_ClothingMaterials">sylu<ex>er</ex>e</rs></cell><cell>iiij d</cell></row>
                                     <row><cell>It<ex>em</ex> at ye ferst rehers in <rs ref="eats:40978" type="Thing_FoodDrink">kakkys</rs> &amp; <rs ref="eats:40997" type="Thing_FoodDrink">alle</rs></cell><cell>iiij d ob.</cell></row>
                                     <row><cell>It<ex>em</ex> In v &#x021D;erdd<ex>es</ex> of now <rs ref="eats:301731" type="Thing_ClothingMaterials">canvays</rs> to l now pagand y<ex>a</ex>t was mayd for ye <rs ref="eats:396686" type="Drama_Character">sallys</rs> to ryse owtof</cell><cell>xv d</cell></row>
                                     <row><cell>It<ex>em</ex> in <rs ref="eats:302489" type="Thing_ClothingMaterials">naylles</rs> boght to ye same</cell><cell>xiij d</cell></row>
@@ -5818,7 +5791,7 @@
                             <p>
                                 <hi rend="italic">York Prototype added note, Aria Kowal] 2024 </hi> For more detail about the different wagon mechanisms, see
                                 Philip Butterworth, ‘The York Mercers’ Pageant Vehicle, 1433–1467: Wheels, Steering, and Control.’ In Staging, Playing, Pyrotechnics and Magic: Conventions of Performance in Early English Theatre, 1st ed., 13–22. Routledge, 2022. 
-                                https://doi.org/10.4324/9781003195740-3.
+                                <ref target="https://doi.org/10.4324/9781003195740-3">https://doi.org/10.4324/9781003195740-3</ref>.
                             </p>
                         </div>
                     </div>
@@ -5826,21 +5799,14 @@
             </text>
             <text type="record" xml:id="yorkc-ridp496140008">
                 <body>
-                    <head><!-- Record location goes here in the following format: [COUNTY, CITY] (eg. Yorkshire, York). -->
-                        Yorkshire, York 
-                        <!-- Date is encoded here. For slash dates, put the modern date into the quotation marks and the slash date in between the date tags. Eg: <date when-iso="1617">1616/17</date>". 
-                For date ranges, use <date from-iso="YYYY" to-iso="YYYY">YYYY-Y</date>. Eg: <date from-iso="1451" to-iso="1452">1451-2</date>. In all other cases, keep the tags as below and simply change the YYYY to the appropriate year-->
+                    <head><rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
+                            ref="eats:37840" type="Place_PA_Settlement">York</rs> 
                         <date when-iso="1526">1526</date>
-                        <!-- Use the York Record Code List.xslx file to choose the appropriate code based on the type of record you are working with and insert it below into the seg ana element and between the two XML tags
-                -->
                         <seg ana="taxon:YGMP5">YGMP5</seg>
                     </head>
-                    <!-- xml:lang: eng= english, lat= latin, ang=anglo-saxon. Type will always be transcription in this section. the xml:id here must match the xml:id above with the addition of a -transcription -->
                     <div xml:lang="eng" type="transcription" xml:id="yorkc-ridp496140008-transcription">
                         <div>
-                            <head>
-                                <!--Membrane/Folio number goes here. Use mb for membrane and f for folio]--> mb D63</head>
-                            <!-- Memberane/Folio number is encoded below. Under type, use "membrane" for membrance and "folio" for folio -->
+                            <head>mb D63</head>
                             <pb n="D63" type="membrane"/>
                             <ab>
                                 <table>
@@ -5855,10 +5821,10 @@
                                     <row><cell>j Wesseren</cell></row>
                                     <row><cell>j chartt</cell></row>
                                     <row><cell>the <rs ref="eats:133556" type="Thing_Property">clowd</rs></cell></row>
-                                    <row><cell>ij grett Angells - <del>wantt<ex>es</ex> j <rs ref="eats:191516" type="Thing_TheatricalCostume">weng</rs></del></cell></row>
+                                    <row><cell>ij grett <rs ref="eats:203592" type="Drama_Character">Angells</rs> - <del>wantt<ex>es</ex> j <rs ref="eats:191516" type="Thing_TheatricalCostume">weng</rs></del></cell></row>
                                     <row><cell>ij <rs ref="eats:41777" type="Thing_MusicalInstrument">trompys</rs></cell></row>
                                     <row><cell><rs ref="eats:186283" type="Thing_SetMachinery">hell dure</rs></cell></row>
-                                    <row><cell>iiij <rs ref="eats:472395" type="Thing_SetMachinery">angelli</rs></cell></row>
+                                    <row><cell>iiij angelli</cell></row>
                                     <row><cell><rs ref="eats:302248" type="Thing_SetMachinery">pagand</rs> dure</cell></row>
                                     <row><cell>iiij wendows</cell></row>
                                     <row><cell>ye <rs ref="eats:302725" type="Thing_ClothingMaterials">yren</rs> sett wit<ex>h</ex> iiij <rs ref="eats:219750" type="Thing_Property">Rapp<ex>es</ex></rs></cell><cell>Wants j chartt</cell></row>
@@ -5877,23 +5843,18 @@
             </text>
             <text type="record" xml:id="yorkc-ridp293462984">
                 <body>
-                    <head><!-- Record location goes here in the following format: [COUNTY, CITY] (eg. Yorkshire, York). -->
-                        Yorkshire, York 
-                        <!-- Date is encoded here. For slash dates, put the modern date into the quotation marks and the slash date in between the date tags. Eg: <date when-iso="1617">1616/17</date>". 
-                For date ranges, use <date from-iso="YYYY" to-iso="YYYY">YYYY-Y</date>. Eg: <date from-iso="1451" to-iso="1452">1451-2</date>. In all other cases, keep the tags as below and simply change the YYYY to the appropriate year-->
+                    <head><rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
+                            ref="eats:37840" type="Place_PA_Settlement">York</rs> 
                         <date when-iso="1489">1489</date>
-                        <!-- Use the York Record Code List.xslx file to choose the appropriate code based on the type of record you are working with and insert it below into the seg ana element and between the two XML tags
-                -->
                         <seg ana="taxon:YCDHB">YCDHB</seg>
                     </head>
-                    <!-- xml:lang: eng= english, lat= latin, ang=anglo-saxon. Type will always be transcription in this section. the xml:id here must match the xml:id above with the addition of a -transcription -->
                     <div xml:lang="eng" type="transcription" xml:id="yorkc-ridp293462894-transcription">
                         <div>
                             <head>f 168v (5 February)</head>
                             <pb n="168v" type="folio"/>
                             <ab>
                                 <gap reason="omitted"/>It<ex>em</ex> it is agreid that &#x00FE;<ex>er</ex> be no Reward<ex>es</ex> yeven by yere from
-                                this day forwerd to eny <rs ref="eats:163866" type="Collective_Troupe">minstrall<ex>es</ex></rs> bot to the <rs ref="eats:23807" type="Person_Royalty">king<ex>es</ex></rs> And also
+                                this day forwerd to eny <rs ref="eats:163866" type="Collective_Troupe">minstrall<ex>es</ex></rs> bot to the king<ex>es</ex> And also
                                 &#x00FE;<ex>a</ex>t &#x00FE;<ex>er</ex>be no forth<ex>e</ex>r expens maid apon <rs ref="eats:41497" type="CalendarDay_Liturgical">corpus chr<ex>ist</ex>i day</rs> bot xl s
                                 and if <add place="above">it</add> ou<ex>er</ex>go &#x00FE;<ex>a</ex>t the <rs ref="eats:463913" type="Collective_Office">Chamb<ex>er</ex>leyns</rs> to pay it of &#x00FE;<ex>er</ex> own
                                 charg<ex>es</ex><gap reason="omitted"/>
@@ -5904,21 +5865,15 @@
             </text>
             <text type="record" xml:id="yorkc-ridp129872384">
                 <body>
-                    <head><!-- Record location goes here in the following format: [COUNTY, CITY] (eg. Yorkshire, York). -->
-                        Yorkshire, York 
-                        <!-- Date is encoded here. For slash dates, put the modern date into the quotation marks and the slash date in between the date tags. Eg: <date when-iso="1617">1616/17</date>". 
-                For date ranges, use <date from-iso="YYYY" to-iso="YYYY">YYYY-Y</date>. Eg: <date from-iso="1451" to-iso="1452">1451-2</date>. In all other cases, keep the tags as below and simply change the YYYY to the appropriate year-->
+                    <head><rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
+                            ref="eats:37840" type="Place_PA_Settlement">York</rs> 
                         <date when-iso="1491">1491</date>
-                        <!-- Use the York Record Code List.xslx file to choose the appropriate code based on the type of record you are working with and insert it below into the seg ana element and between the two XML tags
-                -->
                         <seg ana="taxon:YCDHB">YCDHB</seg>
                     </head>
-                    <!-- xml:lang: eng= english, lat= latin, ang=anglo-saxon. Type will always be transcription in this section. the xml:id here must match the xml:id above with the addition of a -transcription -->
                     <div xml:lang="eng" type="transcription" xml:id="yorkc-ridp129872384-transcription">
                         <div>
                             <head>
-                                f 38 (19 February)</head><!--Membrane/Folio number goes here. Use mb for membrane and f for folio]--> 
-                            <!-- Memberane/Folio number is encoded below. Under type, use "membrane" for membrance and "folio" for folio -->
+                                f 38 (19 February)</head>
                             <pb n="38" type="folio"/>
                             <ab>
                                 <gap reason="omitted"/> 
