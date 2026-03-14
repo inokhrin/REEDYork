@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="REEDYork" default="build" basedir=".">
+
+  <property name="java.min.version" value="11"/>
+  <property name="saxon.jar" location="${basedir}/lib/saxon-he-12.jar"/>
+  <property name="xsl.main" location="${basedir}/xsl/build-site.xsl"/>
+  <property name="source.xml" location="${basedir}/yorkc.xml"/>
+  <property name="out.summary" location="${basedir}/site/build-summary.xml"/>
+  <property name="output.dir.param" value="../site"/>
+  <property name="taxonomy.uri.param" value="../taxonomy.xml"/>
+  <property name="entities.uri.param" value="../entities 2025 06 16.xml"/>
+  <property name="strict" value="true"/>
+
+  <target name="build">
+    <echo message="[REEDYork] Starting build (non-strict mode)"/>
+    <antcall target="prepare"/>
+    <antcall target="transform-nonstrict"/>
+    <echo message="[REEDYork] Build complete (non-strict mode)"/>
+  </target>
+
+  <target name="build-strict">
+    <echo message="[REEDYork] Starting build (strict mode)"/>
+    <antcall target="prepare"/>
+    <antcall target="transform-strict"/>
+    <echo message="[REEDYork] Build complete (strict mode)"/>
+  </target>
+
+  <target name="validate">
+    <antcall target="build-strict"/>
+  </target>
+
+  <target name="prepare">
+    <echo message="[REEDYork] Checking Java and Saxon prerequisites"/>
+    <fail unless="ant.java.version"
+      message="Java is required to run Saxon HE. Install Java ${java.min.version}+ and retry."/>
+    <available file="${saxon.jar}" property="saxon.exists"/>
+    <fail unless="saxon.exists" message="Saxon HE jar not found at ${saxon.jar}"/>
+
+    <echo message="[REEDYork] Ensuring output directories exist under ${basedir}/site"/>
+    <mkdir dir="${basedir}/site"/>
+    <mkdir dir="${basedir}/site/assets"/>
+    <mkdir dir="${basedir}/site/records"/>
+    <mkdir dir="${basedir}/site/entities"/>
+    <mkdir dir="${basedir}/site/reports"/>
+    <echo message="[REEDYork] Preparation complete"/>
+  </target>
+
+  <target name="transform">
+    <echo message="[REEDYork] Running Saxon transform"/>
+    <echo message="[REEDYork]   XSL: ${xsl.main}"/>
+    <echo message="[REEDYork]   Source: ${source.xml}"/>
+    <echo message="[REEDYork]   Output summary: ${out.summary}"/>
+    <echo message="[REEDYork]   strict=${strict}, output-dir=${output.dir.param}"/>
+    <java jar="${saxon.jar}" fork="true" failonerror="true">
+      <arg value="-xsl:${xsl.main}"/>
+      <arg value="-s:${source.xml}"/>
+      <arg value="-o:${out.summary}"/>
+      <arg value="output-dir=${output.dir.param}"/>
+      <arg value="taxonomy-uri=${taxonomy.uri.param}"/>
+      <arg value="entities-uri=${entities.uri.param}"/>
+      <arg value="strict=${strict}"/>
+    </java>
+    <echo message="[REEDYork] Transform finished"/>
+  </target>
+
+  <target name="transform-nonstrict">
+    <antcall target="transform">
+      <param name="strict" value="false"/>
+    </antcall>
+  </target>
+
+  <target name="transform-strict">
+    <antcall target="transform">
+      <param name="strict" value="true"/>
+    </antcall>
+  </target>
+
+  <target name="clean">
+    <echo message="[REEDYork] Cleaning ${basedir}/site"/>
+    <delete dir="${basedir}/site"/>
+    <echo message="[REEDYork] Clean complete"/>
+  </target>
+
+  <target name="rebuild">
+    <echo message="[REEDYork] Rebuild requested (non-strict)"/>
+    <antcall target="clean"/>
+    <antcall target="build"/>
+  </target>
+
+  <target name="rebuild-strict">
+    <echo message="[REEDYork] Rebuild requested (strict)"/>
+    <antcall target="clean"/>
+    <antcall target="build-strict"/>
+  </target>
+
+</project>
