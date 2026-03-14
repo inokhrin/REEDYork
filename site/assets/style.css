@@ -1,0 +1,235 @@
+
+:root {
+	--accent: #eb5a0f;
+	--accent-dark: #b84810;
+	--ink: #222;
+	--ink-soft: #555;
+	--paper: #fffdfa;
+	--page: #fff2e4;
+	--line: #e7ddd2;
+	--panel: #fff7ef;
+}
+
+body {
+	margin: 0;
+	background: var(--page);
+	color: var(--ink);
+	font-family: Lato, "Helvetica Neue", Arial, sans-serif;
+	font-size: 1.05rem;
+	line-height: 1.8;
+	font-weight: 300;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+	background: var(--paper);
+	padding: 1.75rem;
+	box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	font-family: "garamond-premier-pro-display", Garamond, "Times New Roman", serif;
+	font-weight: 400;
+	line-height: 1.35;
+	color: #000;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+h2 {
+	font-size: 1.7rem;
+}
+
+h3 {
+	font-size: 1.35rem;
+}
+
+a {
+	color: var(--accent-dark);
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
+	transition: border-color 0.1s ease, color 0.1s ease;
+}
+
+a:hover,
+a:focus {
+	color: var(--accent);
+	border-bottom-color: var(--accent);
+}
+
+.meta {
+	color: var(--ink-soft);
+	margin-bottom: 1rem;
+	font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+	font-size: 0.95rem;
+}
+
+.badge {
+	display: inline-block;
+	padding: 0.18rem 0.52rem;
+	border-radius: 0.35rem;
+	background: #ffe8d7;
+	color: #7b320f;
+	margin-right: 0.5rem;
+	border: 1px solid #f4c9ab;
+	font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+	font-size: 0.85rem;
+}
+
+.content {
+	line-height: 1.8;
+}
+
+.record-list {
+	list-style: none;
+	padding: 0;
+}
+
+.record-list li {
+	padding: 0.85rem 0;
+	border-bottom: 1px solid var(--line);
+}
+
+.box {
+	border: 1px solid var(--line);
+	border-radius: 0.3rem;
+	padding: 0.85rem;
+	margin: 1rem 0;
+	background: var(--panel);
+}
+
+.note-list {
+	margin: 0;
+	padding-left: 1.2rem;
+}
+
+.small {
+	font-size: 0.9rem;
+	color: var(--ink-soft);
+}
+
+nav.breadcrumbs {
+	margin-bottom: 1rem;
+	font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+	font-size: 0.9rem;
+}
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.table th,
+.table td {
+	border-bottom: 1px solid var(--line);
+	padding: 0.6rem;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table th {
+	font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 500;
+}
+
+.unresolved {
+	color: #9a2727;
+}
+
+.tei-pb {
+	color: #786e64;
+	font-style: italic;
+	margin-right: 0.5rem;
+}
+
+.record-title {
+	font-size: 1.35rem;
+	font-weight: 400;
+}
+
+.record-id {
+	margin-top: 0.25rem;
+	color: var(--ink-soft);
+	font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+}
+
+details.box {
+	padding: 0;
+	overflow: visible;
+}
+
+details.box > summary {
+	cursor: pointer;
+	font-family: Poppins, "Helvetica Neue", Arial, sans-serif;
+	font-weight: 500;
+	padding: 0.8rem;
+	background: #fff0e2;
+}
+
+details.box > :not(summary) {
+	padding: 0.35rem 1.1rem 1rem;
+}
+
+details.box ul {
+	list-style: none;
+	padding-left: 0.45rem;
+	margin: 0.35rem 0 0;
+}
+
+details.box ul li + li {
+	margin-top: 0.35rem;
+}
+
+details.box ol {
+	margin: 0.35rem 0 0;
+	padding-left: 1.6rem;
+}
+
+.entity-meta {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 0.75rem;
+}
+
+.note-ref {
+	border: 0;
+	background: #ffe8d7;
+	color: #7b320f;
+	border-radius: 999px;
+	padding: 0 0.35rem;
+	cursor: pointer;
+	font-size: 0.82em;
+	vertical-align: super;
+}
+
+.note-ref:hover,
+.note-ref:focus {
+	background: #ffd8be;
+}
+
+.note-popup {
+	position: absolute;
+	z-index: 999;
+	max-width: 28rem;
+	padding: 0.8rem;
+	border: 1px solid #e4c9b5;
+	border-radius: 0.35rem;
+	background: #fffdf8;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.note-popup[hidden] {
+	display: none;
+}
+
+.note-popup-title {
+	font-weight: 700;
+	margin-bottom: 0.35rem;
+}
+    

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<qa-report>
+   <summary records="46"
+            taxonomy-duplicates="0"
+            taxonomy-missing="0"
+            bad-taxonomy-ana="0"
+            unresolved-entity-refs="16"/>
+   <taxonomy-duplicates/>
+   <taxonomy-missing/>
+   <bad-taxonomy-ana/>
+   <unresolved-entity-refs>
+      <ref value="eats:96830"/>
+      <ref value="eats:492144"/>
+      <ref value="eats:492162"/>
+      <ref value="eats:492184"/>
+      <ref value="eats:492202"/>
+      <ref value="eats:366263"/>
+      <ref value="eats:493473"/>
+      <ref value="eats:372515"/>
+      <ref value="eats:492755"/>
+      <ref value="eats:492804"/>
+      <ref value="eats:492874"/>
+      <ref value="eats:493341"/>
+      <ref value="eats:484174"/>
+      <ref value="eats:493420"/>
+      <ref value="eats:493987"/>
+      <ref value="eats:474129"/>
+   </unresolved-entity-refs>
+</qa-report>
