@@ -33284,44 +33284,6 @@
                             <settlement>York</settlement>
                             <repository sameAs="NYCRO"/>
                             <idno type="shelfmark">C82.2-C98 3</idno>
-                            <msName>Civic Accounts, Bridgemasters' Acount Rolls</msName>
-                        </msIdentifier>
-                        <ab type="edDesc">Three books containing copies of important civic and guild documents survive from
-                            this period. The most important and, unfortunately, the most badly damaged is
-                            the A/Y Memorandum Book. A/Y consists of three separate manuscripts bound
-                            together: the maior registrum, the novum registrum, and an incomplete paper
-                            index to the first two manuscripts and other registers, paper books, and books of
-                            acts. Although some documents enrolled in A/Y are from earlier in the fourteenth
-                            century, the compiling of the book in its original form was begun in January 1377.“
-                            A/Y was a working book used and corrected by generations of civic officials. The
-                            entries are various in nature. Most are craft ordinances, often cancelled and updated.
-                            Some are civic ordinances recording regulations governing activities controlled by
-                            the city. These give us our earliest record of the Corpus Christi Play and the civic
-                            procession with the shrine of Corpus Christi. Occasionally, an entry resembles the
-                            later House Book material in recording the decisions of a particular council meeting.
-                            One important entry concerning the Corpus Christi celebration, the record of the
-                            events surrounding a sermon preached by Friar William Melton in 1426, was written
-                            into the record as a set piece of discursive prose. The earliest surviving reference
-                            to Corpus Christi pageants occurs in the first gathering of the book, recording the
-                            receipt of rent for storing pageants during the year 1376 in a form later used only in
-                            Bridgemasters’ account rolls. Entries on any one folio may come from widely
-                            separated years and may be written in different hands and different languages. We
-                            have transcribed all references to the Corpus Christi celebrations, even those that
-                            have been cancelled, since cancellation may have been made as long as a century
-                            after the original document was enrolled.</ab>
-                        <ab type="techDesc">1438-1626 (incomplete run of 84 separate
-                            rolls), Latin until 1532, then English, parchment, average number of membranes in complete rolls
-                            3, membranes originally sewn together continuously, some now repaired with membranes sewn
-                            together at top and encased in protective vinyl roll; length and width of rolls irregular (length varies from 395mm to 4,010mm; width varies from 220mm to 330mm), written continuously
-                            in single columns frequently continued on dorse, writing from bottom to top (eg, 1-3, 3d-2d); no
-                            decoration. Many fragments. Water damage to many rolls severe: many read under ultra-violet
-                            light.</ab>
-                    </msDesc>
-                    <msDesc xml:id="YCABR">
-                        <msIdentifier>
-                            <settlement>York</settlement>
-                            <repository sameAs="NYCRO"/>
-                            <idno type="shelfmark">C82.2-C98 3</idno>
                             <msName>Civic Accounts, Bridgemasters' Account Rolls</msName>
                         </msIdentifier>
                         <ab type="edDesc">Three books containing copies of important civic and guild documents survive from
@@ -33479,7 +33441,7 @@
                             All are copies of ordinances enrolled in A/Y.</ab>
                         <ab type="techDesc">late 16th century: English; parchment; 32+11,</ab>
                     </msDesc>
-                    <msDesc xml:id="YMPKH">
+                    <msDesc xml:id="YMYBS">
                         <msIdentifier>
                             <settlement>York</settlement>
                             <repository sameAs="Bodleian"/>
@@ -33542,7 +33504,7 @@
                         </ab>
                         
                     </msDesc>
-                    <msDesc xml:id="YGMIN">
+                    <msDesc xml:id="YGMAH">
                         <msIdentifier>
                             <settlement>York</settlement>
                             <repository sameAs="NYCRO"/>

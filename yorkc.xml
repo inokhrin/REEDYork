@@ -125,7 +125,7 @@
                     <head><rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
                             ref="eats:37840" type="Place_PA_Settlement">York</rs>
                         <date when-iso="1415">1415</date>
-                        <seg ana="taxon:YMAAY">YMAAY</seg>
+                        <seg ana="taxon:YCDMA">YCDMA</seg>
                     </head>
                     <div xml:lang="lat" type="transcription" xml:id="yorkc-ordo-transcription">
                         <div>
@@ -3562,7 +3562,7 @@
                         <rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
                             ref="eats:37840" type="Place_PA_Settlement">York</rs>
                         <date when-iso="1486">1486</date>
-                        <seg ana="taxon:YMAH5">YMAH5</seg>
+                        <seg ana="taxon:YCDHB">YCDHB</seg>
                     </head>
                     <div xml:lang="eng" type="transcription"
                         xml:id="yorkc-ridp003081995-transcription">
@@ -3877,7 +3877,7 @@
                         <rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
                             ref="eats:37840" type="Place_PA_Settlement">York</rs>
                         <date when-iso="1399">1399</date>
-                        <seg ana="taxon:YMAAY">YMAAY</seg>
+                        <seg ana="taxon:YCDMA">YCDMA</seg>
                     </head>
                     <div xml:lang="lat" type="transcription"
                         xml:id="yorkc-ripd234765849-transcription">
@@ -4086,7 +4086,7 @@
                         <rs ref="eats:2471" type="Place_County">Yorkshire West Riding</rs>, <rs
                             ref="eats:37840" type="Place_PA_Settlement">York</rs>
                         <date when-iso="1401">1401</date>
-                        <seg ana="taxon:YAYMB*">YAYMB</seg>
+                        <seg ana="taxon:YCDMA">YCDMA</seg>
                     </head>
 
                     <div xml:lang="anm" type="transcription"
@@ -4171,7 +4171,7 @@
                 - Mercers’ Pageant Documents: YMAAP
                 - Mercers’ Chartulary: YMAAC
             -->
-                        <seg ana="taxon:YAYMB">YAYMB</seg>
+                        <seg ana="taxon:YCDMA">YCDMA</seg>
                     </head>
 
                     <div xml:lang="anm" type="transcription"
@@ -6209,7 +6209,6 @@
             </text>
             <text type="record" xml:id="yorkc-ridp337654600">
                 <body>
-                    <div>
                     <head><!-- Record location goes here in the following format: [COUNTY, CITY] (eg. Yorkshire, York). -->
                         Yorkshire, York 
                         <!-- Date is encoded here. For slash dates, put the modern date into the quotation marks and the slash date in between the date tags. Eg: <date when-iso="1617">1616/17</date>". 
@@ -6302,7 +6301,6 @@
                             </p>
                         </div>
                         </div>
-                    </div>
                 </body>
             </text>
             <text type="record" xml:id="yorkc-ridp532588429">
